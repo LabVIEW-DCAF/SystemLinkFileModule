@@ -15,8 +15,6 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Create Test Configuration.vi" Type="VI" URL="../Create Test Configuration.vi"/>
 		<Item Name="Host Module Includes.vi" Type="VI" URL="../Host Module Includes.vi"/>
-		<Item Name="Read Test.vi" Type="VI" URL="../Read Test.vi"/>
-		<Item Name="Test Write.vi" Type="VI" URL="../Test Write.vi"/>
 	</Item>
 	<Item Name="Unit Test" Type="Folder">
 		<Item Name="config crosslink test.vi" Type="VI" URL="../config crosslink test.vi"/>
