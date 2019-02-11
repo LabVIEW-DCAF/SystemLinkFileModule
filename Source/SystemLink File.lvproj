@@ -35,10 +35,6 @@
 				<Property Name="utf.test.bind" Type="Str">SystemLink File Module tests.lvlib:get channels test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">FA43DD0F-ED75-9662-794C-94D3C119CE73</Property>
 			</Item>
-			<Item Name="Add Remove Test.lvtest" Type="TestItem" URL="../testing/Add Remove Test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">SystemLink File Module tests.lvlib:Add Remove Test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">D8827204-F989-DB27-DFD5-963FD04C624F</Property>
-			</Item>
 			<Item Name="config crosslink test.lvtest" Type="TestItem" URL="../testing/config crosslink test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">SystemLink File Module tests.lvlib:config crosslink test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">15675B7F-1A51-0AA7-73BC-F3232D19C547</Property>
@@ -47,21 +43,9 @@
 				<Property Name="utf.test.bind" Type="Str">SystemLink File Module tests.lvlib:Runtime Test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">66CAFC2D-B630-0B86-81EC-F27AA0FBA72E</Property>
 			</Item>
-			<Item Name="Duplicate Name Error Test.lvtest" Type="TestItem" URL="../testing/Duplicate Name Error Test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">SystemLink File Module tests.lvlib:Duplicate Name Error Test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">FB01C5FE-175C-41DB-BF9B-48F4764A97CF</Property>
-			</Item>
-			<Item Name="modify channel test.lvtest" Type="TestItem" URL="../testing/modify channel test.lvtest">
-				<Property Name="utf.test.bind" Type="Str">SystemLink File Module tests.lvlib:modify channel test.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">A643EAF3-C639-4F9B-55B8-3DCBA4632031</Property>
-			</Item>
 			<Item Name="runtime to editor crosslink test.lvtest" Type="TestItem" URL="../testing/runtime to editor crosslink test.lvtest">
 				<Property Name="utf.test.bind" Type="Str">SystemLink File Module tests.lvlib:runtime to editor crosslink test.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">D61BB283-BB7C-E846-35FD-229FA6A9E8D1</Property>
-			</Item>
-			<Item Name="Load Old Configurations.lvtest" Type="TestItem" URL="../testing/Load Old Configurations.lvtest">
-				<Property Name="utf.test.bind" Type="Str">SystemLink File Module tests.lvlib:Load Old Configurations.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">880ED758-8BE1-18D7-AD18-CA3F3D1ECE8E</Property>
 			</Item>
 		</Item>
 		<Item Name="SystemLink File editor node.lvclass" Type="LVClass" URL="../editor node/SystemLink File editor node.lvclass"/>
@@ -448,6 +432,12 @@
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="ex_GenAddAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/ex_GenAddAttribs.vi"/>
 				<Item Name="subSigGeneratorBlock.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subSigGeneratorBlock.vi"/>
+				<Item Name="NI Skyline File.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/File/File/NI Skyline File.lvclass"/>
+				<Item Name="niSkylineFileIngestion.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/File/niSkylineFileIngestion.lvlib"/>
+				<Item Name="NI Skyline File Packet Event.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/File/Packet Event/NI Skyline File Packet Event.lvclass"/>
+				<Item Name="NI Skyline Auto Writable File.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/File/Auto Writable File/NI Skyline Auto Writable File.lvclass"/>
+				<Item Name="NI Skyline Writable File.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/File/Writable File/NI Skyline Writable File.lvclass"/>
+				<Item Name="NI Skyline File Filter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/File/Filter/NI Skyline File Filter.lvclass"/>
 			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

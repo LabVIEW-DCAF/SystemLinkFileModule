@@ -19,13 +19,9 @@
 		<Item Name="Test Write.vi" Type="VI" URL="../Test Write.vi"/>
 	</Item>
 	<Item Name="Unit Test" Type="Folder">
-		<Item Name="Add Remove Test.vi" Type="VI" URL="../Add Remove Test.vi"/>
 		<Item Name="config crosslink test.vi" Type="VI" URL="../config crosslink test.vi"/>
-		<Item Name="Duplicate Name Error Test.vi" Type="VI" URL="../Duplicate Name Error Test.vi"/>
 		<Item Name="get channels test.vi" Type="VI" URL="../get channels test.vi"/>
 		<Item Name="init runtime test.vi" Type="VI" URL="../init runtime test.vi"/>
-		<Item Name="Load Old Configurations.vi" Type="VI" URL="../Load Old Configurations.vi"/>
-		<Item Name="modify channel test.vi" Type="VI" URL="../modify channel test.vi"/>
 		<Item Name="Runtime Test.vi" Type="VI" URL="../Runtime Test.vi"/>
 		<Item Name="runtime to editor crosslink test.vi" Type="VI" URL="../runtime to editor crosslink test.vi"/>
 		<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
